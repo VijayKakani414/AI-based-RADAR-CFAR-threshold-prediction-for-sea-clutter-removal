@@ -1,0 +1,41 @@
+
+# Information of Dataset Type
+
+data_type: 'icn' ## icn or bud or mix 
+
+icn:
+  dire: 'extracted_features/icn'
+  num_labels: 4
+
+bud:
+  dire: 'extracted_features/bud'
+  num_labels: 4
+
+
+
+mix:
+  dire: 'extracted_features/mix'
+  num_labels: 6
+
+
+## General Information for building the network
+
+input_shape: 512
+BATCH_SIZE: 64
+EPOCHS: 2
+learning_rate: 0.001
+
+
+
+## Information of model
+
+opt: 'adam' # adam works the best; suggestion not to change it
+
+model_size: 'large' ## medium or large or small
+
+  
+
+
+## Directory for saving the weights
+
+save_dire: 'saved_weight'
