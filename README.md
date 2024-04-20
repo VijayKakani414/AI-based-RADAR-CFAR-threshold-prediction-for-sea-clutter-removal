@@ -1,2 +1,3 @@
-# 3D Volumetric estimation of dust deposition in unmanned industrial environment
-This repository contains all my research project details pertaining to the 3D Volumetric estimation of dust deposition in unmanned industrial environment
+# AI-based RADAR CFAR threshold prediction for sea clutter removal
+
+This repository contains all my research project details pertaining to the AI-based RADAR CFAR threshold prediction for sea clutter removal
